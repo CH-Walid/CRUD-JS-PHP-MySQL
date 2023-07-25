@@ -1,5 +1,7 @@
 # CRUD-JS-PHP-MySQL
 
+![Preview_1](https://github.com/CH-Walid/CRUD-JS-PHP-MySQL/assets/75185278/e6c69ad6-19b4-4d96-9565-2f2191bb312c)
+
 Dynamic CRUD (Create, Read, Update, Delete) application with JavaScript, PHP with PDO (PHP Data Objects), MySQL, and AJAX.
 
 # Introducing the Admins List CRUD Application
