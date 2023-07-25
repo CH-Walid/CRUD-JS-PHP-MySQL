@@ -4,6 +4,8 @@
 
 Dynamic CRUD (Create, Read, Update, Delete) application with JavaScript, PHP with PDO (PHP Data Objects), MySQL, and AJAX.
 
+https://github.com/CH-Walid/CRUD-JS-PHP-MySQL/assets/75185278/0464bc05-20c7-4842-8262-02e5c3e4686c
+
 # Introducing the Admins List CRUD Application
 Welcome to the Admins List CRUD (Create, Read, Update, Delete) application! I'm thrilled to present this dynamic web application that empowers you to efficiently manage your admin list with ease.
 
