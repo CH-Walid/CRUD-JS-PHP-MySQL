@@ -7,6 +7,8 @@ Dynamic CRUD (Create, Read, Update, Delete) application with JavaScript, PHP wit
 # Introducing the Admins List CRUD Application
 Welcome to the Admins List CRUD (Create, Read, Update, Delete) application! I'm thrilled to present this dynamic web application that empowers you to efficiently manage your admin list with ease.
 
+![Preview_3](https://github.com/CH-Walid/CRUD-JS-PHP-MySQL/assets/75185278/36840bb2-4b90-4272-910f-2493c648a5b1)
+
 # No Frameworks or Libraries, Just Pure Skill-Building
 One unique aspect of this project is the deliberate choice to refrain from using any frameworks or libraries like Bootstrap, Tailwind, or jQuery. Instead, I embrace the challenge of working with raw CSS and Vanilla JavaScript to enhance my coding abilities.
 
@@ -15,6 +17,8 @@ Seamless Admin Management:
 With this Admins List CRUD application, you can easily manage your admin team in a user-friendly way. You, as a single person, will be able to perform various operations smoothly:
 
 1 - Add Members: Add new members to your admin team effortlessly by providing their names and email addresses through a simple and intuitive form. The application ensures the entered data is validated before submitting the request to the back end.
+
+![Preview_2](https://github.com/CH-Walid/CRUD-JS-PHP-MySQL/assets/75185278/6e7fa479-e422-4755-a80f-84fd3b989492)
 
 2 - Edit Information: Need to update a team member's details? No problem! Our application allows you to edit the information of existing members, ensuring your admin list stays up to date with the latest changes.
 
