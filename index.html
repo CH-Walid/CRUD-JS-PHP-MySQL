@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Member List</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+  <ul role="list" class="alerts">
+    <li id="success-Toast" class="alert alert-success">
+
+      <div class="left-section">
+        <div class="circle"> <i class='bx bxs-check-shield'></i> </div>
+        <div class="text-container">
+          <h4 id="success-toast-title">Congratiolations!</h4>
+          <span id="success-toast-body">The updates have been successfully applied.</span>
+        </div>
+      </div>
+
+      <div>
+      </div>
+    </li>
+
+    <li id="danger-Toast" class="alert alert-danger">
+
+      <div class="left-section">
+        <div class="circle"> <i class='bx bxs-x-circle'></i> </div>
+        <div class="text-container">
+          <h4 id="danger-toast-title">Error!</h4>
+          <span id="danger-toast-body">Apologies, Something went wrong... an error has occurred. Please retry.</span>
+        </div>
+      </div>
+
+      <div>
+      </div>
+    </li>
+  </ul>
+
+
+  <div class="create-form">
+    <form id="pup-up-form" class="pup-up-form">
+      <i class='bx bx-x'></i>
+      <h2>Add New Member:</h2>
+      <input type="hidden" name="hiddenId" id="hiddenId" value="">
+      <input class="input" type="text" name="name" id="Name" placeholder="Member's Name...">
+      <input class="input" type="email" name="email" id="Email" placeholder="Member's Email...">
+      <button class="btn btn-primary" id="addRow">Add Member</button>
+      <button class="btn btn-warning" id="editRow">Edit</button>
+    </form>
+  </div>
+
+  <div class="overlay-view">
+    <div class="view-form">
+      <i class='bx bx-x'></i>
+      <h2>View Member's Info:</h2>
+      <label>Id: <span id="viewId"></span></label>
+      <label>Name: <span id="viewName"></span></label>
+      <label>Email: <a id="viewEmail" href="mailto:"></a></label>
+      <button id="cancel" class="btn btn-light">Cancel</button>
+    </div>
+  </div>
+
+  <h1><span>Settings / </span>Member List</h1>
+  <div class="outside-container">
+    <div class="hero-section">
+      <ul role='list' class="hero-ul">
+
+        <li>
+          <h3>Organisation</h3>
+          <p>Organisation Name*</p>
+        </li>
+
+        <li>
+          <h3>Admin</h3>
+          <p>Walid Chabani</p>
+        </li>
+
+        <li>
+          <h3>Total members</h3>
+          <p id="totalMembers">...</p>
+        </li>
+
+      </ul>
+    </div>
+
+    <div class="main-section">
+
+      <div class="top-bar">
+
+        <div class="top-show-filter">
+          <span>Show</span>
+          <select name="show" id="show" class="select">
+            <option value="10">10</option>
+            <option value="20" selected>20</option>
+            <option value="50">50</option>
+          </select>
+          <span>entries</span>
+        </div>
+
+        <ul class="top-left-filter">
+          <input type="text" id="searchData" class="input search-bar" placeholder="Search by Name, Email...">
+          <button class="btn btn-primary" id="addNew">Add New</button>
+        </ul>
+
+      </div>
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr class="header-table">
+              <td>ID</td>
+              <td>Name</td>
+              <td>Email</td>
+              <td>Actions</td>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+
+      <div class="button-bar">
+        <button class="btn" id="prevButton">Previous</button>
+        <button class="btn btn-primary" id="nextButton">Next</button>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./app.js"></script>
+</body>
+</html>
